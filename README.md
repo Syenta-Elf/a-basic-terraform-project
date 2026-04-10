@@ -90,6 +90,8 @@ terraform destroy
 
 | Output | Description |
 |--------|-------------|
+| `nginx_url` | URL to access Nginx from the host machine |
+| `private_network_name` | Name of the private Docker network |
 | `container_ports` | External and internal port mappings |
 | `container_addresses` | IP addresses within the private network |
 
