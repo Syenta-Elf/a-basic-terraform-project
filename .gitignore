@@ -1,0 +1,27 @@
+# Local .terraform directories
+.terraform/
+
+# Terraform lock file (bunu commit'lemek isteyebilirsin, projeye göre karar ver)
+# .terraform.lock.hcl
+
+# State files
+terraform.tfstate
+terraform.tfstate.backup
+
+# tfvars (hassas veriler içerebilir)
+*.tfvars
+*.tfvars.json
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config file
+.terraformrc
+terraform.rc
