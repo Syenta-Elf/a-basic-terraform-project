@@ -49,12 +49,11 @@ cd a-basic-terraform-project
 image_list = {
   "nginx" = {
     tag           = "1.29.8-alpine"
-    internal_port = 80
+    target_port = 80
     external_port = 8081
   }
   "redis" = {
     tag           = "8.6.2-alpine"
-    internal_port = 6379
   }
   "postgres" = {
     tag = "18.3-alpine3.23"
